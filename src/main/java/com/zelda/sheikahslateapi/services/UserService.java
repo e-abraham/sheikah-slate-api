@@ -46,7 +46,7 @@ public class UserService {
         User user = userRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("User with id: " + id + " does not exist"));
         user.setUsername(userUpdate.getUsername());
-        user.setPassword(userUpdate.getPassword());
+        user.setPassword(Hasher.hash(user.getPassword()));
         user.setRole(userUpdate.getRole());
 
         return userRepository.save(user);

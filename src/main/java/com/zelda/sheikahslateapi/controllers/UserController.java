@@ -13,7 +13,7 @@ import java.util.List;
 @CrossOrigin("*")
 @RestController
 //Optional, Every route in controller starts with this
-@RequestMapping("/hyrule")
+@RequestMapping("/hyrule/users")
 public class UserController {
 
     @Autowired

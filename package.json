@@ -1,0 +1,23 @@
+{
+  "name": "sheikah-slate-api",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000s\u0000h\u0000e\u0000i\u0000k\u0000a\u0000h\u0000-\u0000s\u0000l\u0000a\u0000t\u0000e\u0000-\u0000a\u0000p\u0000i\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-abraham/sheikah-slate-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e-abraham/sheikah-slate-api/issues"
+  },
+  "homepage": "https://github.com/e-abraham/sheikah-slate-api#readme",
+  "dependencies": {
+    "@auth0/auth0-react": "^1.8.0",
+    "create-react-app": "^4.0.3"
+  }
+}

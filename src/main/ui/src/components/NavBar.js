@@ -117,8 +117,7 @@ const NavBar = () => {
                     id="qsLoginBtn"
                     color="primary"
                     block
-                    onClick={() => loginWithRedirect({})}
-                  >
+                    onClick={() => loginWithRedirect({})} >
                     Log in
                   </Button>
                 </NavItem>
@@ -170,3 +169,4 @@ const NavBar = () => {
 };
 
 export default NavBar;
+

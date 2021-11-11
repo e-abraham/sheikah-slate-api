@@ -15,7 +15,7 @@ const appOrigin = authConfig.appOrigin || `http://localhost:${appPort}`;
 if (
   !authConfig.domain ||
   !authConfig.audience ||
-  authConfig.audience === "YOUR_API_IDENTIFIER"
+  authConfig.audience === "sheikahSlateAPI"
 ) {
   console.log(
     "Exiting: Please make sure that auth_config.json is in place and populated with valid domain and audience values"

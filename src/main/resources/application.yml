@@ -1,0 +1,9 @@
+auth0:
+audience: sheikahSlateAPI
+spring:
+security:
+  oauth2:
+  resourceserver:
+    jwt:
+    issuer-uri: https://dev-xfaxe0nd.us.auth0.com/
+

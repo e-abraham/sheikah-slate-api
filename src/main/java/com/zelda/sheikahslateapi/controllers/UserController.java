@@ -29,7 +29,7 @@ public class UserController {
         return userService.saveUser(user);
     }
 
-    //Curly braces are path variable, like /rest-demo/users/5
+    //Curly braces are path variable, like /hyrule/users/5
     @GetMapping("id/{id}")
     public ResponseEntity<User> getUserById(@PathVariable Integer id) {
         User user = userService.getUserById(id);

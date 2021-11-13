@@ -50,7 +50,7 @@ const NavBar = () => {
                   exact
                   activeClassName="router-link-exact-active"
                 >
-                  Home
+                  Hyrule
                 </NavLink>
               </NavItem>
               {isAuthenticated && (
@@ -61,7 +61,7 @@ const NavBar = () => {
                     exact
                     activeClassName="router-link-exact-active"
                   >
-                    External API
+                    Kingdom of Hyrule Residents
                   </NavLink>
                 </NavItem>
               )}

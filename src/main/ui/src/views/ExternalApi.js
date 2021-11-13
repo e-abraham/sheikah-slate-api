@@ -113,16 +113,15 @@ export const ExternalApiComponent = () => {
           </Alert>
         )}
 
-        <h1>External API</h1>
+        <h1>Slate API</h1>
         <p className="lead">
-          Ping an external API by clicking the button below.
+          Ping an external API by clicking the button below. You will get a list of Hyrule's Residents.
         </p>
-
+          The series centers on the various incarnations of Link, a courageous young Hylian man, with pointy elf-like ears; and Princess Zelda,
+          a magical princess that is the mortal reincarnation of the goddess Hylia; as they fight to save the magical land of Hyrule from Ganon,
+          an evil warlord turned demon king, who is the principal antagonist of the series.
         <p>
-          This will call a local API on port 3001 that would have been started
-          if you run <code>npm run dev</code>. An access token is sent as part
-          of the request's `Authorization` header and the API will validate it
-          using the API's audience value.
+
         </p>
 
         {!audience && (
@@ -177,7 +176,7 @@ export const ExternalApiComponent = () => {
           onClick={callApi}
           disabled={!audience}
         >
-          Ping API
+          Hyrule Users
         </Button>
       </div>
 
